@@ -1,0 +1,222 @@
+body, html 
+{
+    height: 100%;
+    background-color: #2D3142;
+    
+}
+.TitrePage
+{
+    font: 40px "Garamond";
+    text-align: center;
+    top: 100px;
+    border: 5px solid black;
+    background-color: #bfc0c0;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+.MiseEnPage
+{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 4-fr;
+}
+
+.BarNav
+{
+    background-color: #EF8354;
+    overflow: hidden;
+    display: flex;
+    top: 150px;
+    margin: 10px;
+    justify-content: space-evenly;
+    border: solid 5px black;
+    
+}
+.BarNav a
+{  
+    color: black;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font: "Garamond"; 
+    
+}
+.BarNav input[type=text]
+{
+    background-color: silver;
+}
+.Menu:active
+{
+    background-color: #C7724D;
+    border: inset;
+}
+.Menu:hover
+{
+    background-color: #bfc0c0;
+}
+@keyframes actif
+{
+  from {background-color: #bfc0c0;}
+  to {background-color: #2D3142;}
+}
+.actif
+ {
+     background-color: #bfc0c0;
+     animation-name: actif;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+
+ }
+ .ParentTexte
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .Texte
+ {
+     font: 18px "Garamond";
+     background-color: #ffffff;
+     padding: 10px; 
+     border-radius: 10px;
+     display: inline-block;
+ }
+ .Sections
+ {
+    font: 35px "Garamond" ;
+    color: #fffbdb;  
+ }
+div.Gallerie 
+{
+    margin: 30px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    height: 200px;
+    flex-direction: column;
+    display:flexbox ;
+}
+div.Gallerie:hover 
+{
+    border: 1px solid #777; 
+}
+div.Gallerie img 
+{
+    width: 100%;
+    height: 100%;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: silver;
+    border: 1px solid #777; 
+    font: 1em "Garamond";
+  }
+.AffichageGalleries
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Liens
+{
+    border-radius: 10px;
+}
+div menu li
+{
+    color: silver;
+    font: 1.5em "Garamond";
+}
+
+@media screen and (max-width: 630px)
+{
+    .BarNav
+    {
+        display: block;
+        width: 120px;
+    }
+   .Menu
+   {
+    display: flex;
+    flex-wrap: wrap;
+   }
+}
+.Local a
+{
+    display: flexbox;
+    width: 120px;
+    text-decoration: none;
+    color: black;
+}
+#video
+{
+    margin: 30px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+    height: 150px;
+    flex-direction: column;
+    display:flexbox ;
+}
+
+ul li
+{
+    color: Black;
+    font: 1.5em "Garamond"; 
+}
+
+div.Photo
+{
+    margin: 30px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    height: 200px;
+
+}
+div.Photo:hover 
+{
+    border: 1px solid #777; 
+}
+div.Photo img 
+{
+    width: 100%;
+    height: 100%;
+}
+a
+{
+    font-style: italic;
+    color: #2D3142;
+} 
+table, th, td
+{
+    border: 1px solid silver;
+    color: #C7724D;
+    border-collapse: collapse;
+}
+th, td
+{
+    padding: 5px;
+}
+th
+{
+    width: 20%;
+    
+}
+tr:nth-child(even) 
+{
+    background-color: #4F5D75;
+}
+  
+  th:nth-child(even),td:nth-child(even)
+{
+    background-color: #4F5D75;
+}
+
+
+/*https://www.velomonttremblant.com
+https://www.ninerbikes.com/blog/do-you-ride-cross-country-or-trail-understanding-different-types-of-mountain-bike-riding.html
+https://www.themanual.com/outdoors/best-mountain-bike-destinations/
+*/
